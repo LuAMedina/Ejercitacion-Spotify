@@ -1,0 +1,84 @@
+section.contain-help {
+    width: 90%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+section.contain-help .help {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.contain-help .help h2 {
+    font-family: var(--base-font);
+}
+
+section.contain-help .help .help-description {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+}
+
+section.contain-help .help .help-description h3 {
+    font-family: var(--base-font);
+}
+
+section.contain-help .help .help-description p {
+    font-family: var(--base-font);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+
+@media (min-width: 768px) {
+
+    section.contain-help {
+        position: relative;
+        left: 40px;
+    }
+
+    section.contain-help .help {
+        margin: 2rem 0;
+    }
+    
+    section.contain-help .help h2 {
+        font-size: 2rem;
+    }
+
+    section.contain-help .help .help-description h3 {
+        font-size: 1.5rem;
+    }
+
+    section.contain-help .help .help-description p {
+        font-family: var(--base-font);
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    section.contain-help .help {
+        margin: 3rem;
+    }
+
+    section.contain-help .help h2 {
+        font-size: 2rem;
+    }
+
+    section.contain-help .help .help-description p {
+        font-size: 16px;
+    }
+}
